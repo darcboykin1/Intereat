@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/css/uikit.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <header>
+    <h1 id="title"><%= title %></h1>
+    <h2 id="slogan"><span>Where</span> will you eat today?</h2>
+    <form action="/users" method="POST" class="">
+      <button type="submit" value="African" name="name" class="country" id="African">Africa</button>
+      <button type="submit" value="Chinese" name="name" class="country" id="Chinese">China</button>
+      <button type="submit" value="Indian" name="name" class="country" id="Indian">India</button>
+      <button type="submit" value="Italian" name="name" class="country" id="Italian">Italy</button>
+      <button type="submit" value="Japanese" name="name" class="country" id="Japanese">Japan</button>
+      <button type="submit" value="Korean" name="name" class="country" id="Korean">Korea</button>
+      <button type="submit" value="Mexican" name="name" class="country" id="Mexican">Mexico</button>
+      <button type="submit" value="Thai" name="name" class="country" id="Thai">Thailand</button>
+    </form>
+  </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/js/uikit.min.js" type="text/javascript" charset="utf-8" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Results</title>
+</head>
+<body>
+  <% test.forEach((business)=> { %>
+  <div>
+  <h3><%= business.name %></h3>
+  <img src="<%= business.rating_img_url %>" alt="">
+  <p><%= business.location.display_address %></p>
+  <p><%= business.snippet_text %></p>
+  </div>
+ <% }) %>
+</body>
+</html>
